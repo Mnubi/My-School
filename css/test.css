@@ -56,6 +56,11 @@ h2 {
     background-color: #49ad06;
     color: white;
   }
+
+  #testimonial {
+   margin-left:20px;
+  }
+
 .checked {
     color: #49ad06;
   }
