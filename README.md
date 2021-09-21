@@ -1,21 +1,24 @@
 # My-School
-#### {Brief description of application}, {Date of current version}
-#### By **{List of contributors}**
+#### {My School web application will help users to get more information about a school; school performance, school location, This will help those user who wishes to join a certain school, transfer to another school or sponspors who wishes to know more about a school}, {21st September 2021}
+#### By **{Peter Karuku, Caleb Kavindu, Elizabeth Gikonyo and Rodger Philip}**
 ## Description
 {This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
+ There is no installation needed
 * in a simple
 * easy-to-understand
 * format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+{This application is easy to use for all potential users, employers and collaborators to run your app. It does not need a server nor installation.}
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+{There are no knowns bugs in this application and the application works fine across all devices. }
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+{Some of the technologies used to make this project a success include
+   * HTML
+   * CSS
+   * Bootstrap
+   * Javascript.}
 ## Support and contact details
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+{In case of any problem or issues you can contact us through. peter.karuku@student.moringaschool.com, elizabeth.gikonyo@student.moringaschool.com, caleb.kavindu@student.moringaschool.com}
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*{MIT licence is used.  See below for more details on licensing.}*
+Copyright (c) {2021} **{myschool}**
