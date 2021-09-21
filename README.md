@@ -18,7 +18,7 @@
    * Bootstrap
    * Javascript.}
 ## Support and contact details
-{In case of any problem or issues you can contact us through. peter.karuku@student.moringaschool.com, elizabeth.gikonyo@student.moringaschool.com, caleb.kavindu@mor  ct you or make a contribution to the code.}
+{In case of any problem or issues you can contact us through. peter.karuku@student.moringaschool.com, elizabeth.gikonyo@student.moringaschool.com, caleb.kavindu@student.moringaschool.com}
 ### License
 *{MIT licence is used.  See below for more details on licensing.}*
 Copyright (c) {2021} **{myschool}**
