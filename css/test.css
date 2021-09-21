@@ -56,6 +56,9 @@ h2 {
     background-color: #49ad06;
     color: white;
   }
+.checked {
+    color: green;
+  }
 
 /*-----------------------------end of header section-----------------------------*/
 
