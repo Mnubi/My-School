@@ -74,8 +74,10 @@ h3 {
 
 #li-home {
     color: white;
-    margin-left: 350px;
+    /* margin-left: 350px; */
     font-size: 20px;
+    padding-left: 250px;
+
 }
 
 #wwd {
