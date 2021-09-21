@@ -3,6 +3,17 @@ body {
 }
 
 .container-fluid{
-    padding: 40px;
     width: 60%;
+}
+
+.schoolform{
+    background-color: greenyellow;
+    border-radius: 3%;
+    padding: 30px;
+
+}
+
+#submit {
+    align-items: center;
+    text-align: center;
 }
