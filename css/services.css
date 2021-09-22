@@ -1,12 +1,12 @@
 body {
     background-color: #D3D3D3;
     overflow-x: hidden;
-  }
-  
+}
+
+
 header {
     text-align: center;
     background-color: rgb(207, 206, 206);
-    overflow-x: hidden;
 }
 
 /*kenyan flag logo*/
@@ -38,10 +38,10 @@ h2 {
 .topnav {
     background-color: rgb(34, 34, 34);
     overflow: hidden;
-  }
+}
   
-  /* Style the links inside the navigation bar */
-  .topnav a {
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
     color: #ffffff;
     text-align: center;
@@ -49,45 +49,29 @@ h2 {
     text-decoration: none;
     font-size: 25px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+}
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
+/* Change the color of links on hover */
+.topnav a:hover {
     background-color: rgb(250, 4, 4);
     color: black;
-  }
+}
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
+/* Add a color to the active/current link */
+.topnav a.active {
     background-color: #49ad06;
     color: white;
-  }
-
-/*-----------------------------end of header section-----------------------------*/
-
-h3 {
-    font-size: 35px;
-    color: rgb(60, 255, 0);
-    text-align: center;
 }
 
-#p-home {
-    text-align: center;
-    color: white;
-    font-size: 20px;
+
+.container-fluid{
+    width: 60%;
 }
 
-#li-home {
-    color: white;
-    /* margin-left: 350px; */
-    font-size: 20px;
-    padding-left: 250px;
-
-}
-
-#wwd {
-    background-color: rgb(34, 34, 34);
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.schoolform{
+    background-color: greenyellow;
+    border-radius: 3%;
+    padding: 30px;
 
 }
 
