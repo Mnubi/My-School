@@ -35,79 +35,89 @@
         <div class="container-fluid">
 
             <nav class="navbar">
-                <form class="d-flex">
-                    <input class="form-control me-1" type="search" placeholder="Name of school" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                  </form>
-            </nav>
-
-            <div class="schoolform">
-                <form id="myschool" >
-
-                    <label ><strong>Select County</strong></label>
-                    <select class="form-select" aria-label="Default select example">
-                        <option selected>choose County</option>
-                        <option value="1">Kisumu</option>
-                        <option value="2">Nairobi</option>
-                        <option value="3">Muranga</option>
-                        <option value="4">Kiambu</option>
-                        <option value="5">Embu</option>
-                        <option value="6">Machakos</option>
-                        <option value="7">Nakuru</option>
-                        <option value="8">Garissa</option>
-                        <option value="9">Eldoret</option>
-                        <option value="10">Mombasa</option>
-                    </select>
-                    
-                    <br>
-    
-                    <label><strong>Type of School</strong></label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                        Boarding School
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                        Day School
-                        </label>
-                    </div>
-    
-                    <br>
-    
-                    <label><strong>School Gender</strong></label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Default" id="gender">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                        Girls School
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Default" id="gender" checked>
-                        <label class="form-check-label" for="flexRadioDefault2">
-                        Boys School
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="Default" id="flexRadioDefault1">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                        Mixed School
-                        </label>
-                    </div>
-
-                    <br>
-
-                    <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+                <form class="d-flex" id="sch" action="http://alliancehighschool.sc.ke/" target="_blank" method="get">
+                    <div>
+                       <input type="text" name="Search" placeholder="enter the name of school you wish to search">
+                       <button class="btn btn-outline-success" type="submit" value="search">Search</button>
+                    </div>  
                 </form>
+            
+            </nav>
+            <form id="subform">
+                <div class="schoolform">
+                    <form id="myschool" >
+    
+                        <label ><strong>Select County</strong></label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>choose County</option>
+                            <option value="1">Kisumu</option>
+                            <option value="2">Nairobi</option>
+                            <option value="3">Muranga</option>
+                            <option value="4">Kiambu</option>
+                            <option value="5">Embu</option>
+                            <option value="6">Machakos</option>
+                            <option value="7">Nakuru</option>
+                            <option value="8">Garissa</option>
+                            <option value="9">Eldoret</option>
+                            <option value="10">Mombasa</option>
+                        </select>
+                        
+                        <br>
+        
+                        <label><strong>Type of School</strong></label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="bording" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            Boarding School
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" value="day" id="flexRadioDefault2" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                            Day School
+                            </label>
+                        </div>
+        
+                        <br>
+        
+                        <label><strong>School Gender</strong></label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Default" value="girls"id="gender">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            Girls School
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Default" id="gender" value="boys" checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                            Boys School
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Default" value="mix" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                            Mixed School
+                            </label>
+                        </div>
+    
+                        <br>
+    
+                        <input id="submit" class="btn btn-primary" type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
-        </div>
+            </form>
+
+           
 
         <br><br>
+        <script src="js/main.js"></script>
 
         <div class="footer">
             <p>All rights reserved myschool &copy 2021</p>
         </div>
+            </form>
+
+       
     </body>
 </html>
